@@ -1,0 +1,11 @@
+<div class="card m-2" style="width: 18rem;">
+  <img class="card-img-top" [src]="picturePath" [alt]="modelName">
+  <div class="card-body">
+    <h5 class="card-title">{{brandName}}</h5>
+    <p class="card-text">{{modelName}}</p>
+    <button class="btn btn-dark" (click)="onSwitchCarStatus(id)">Changer le statut</button>
+  </div>
+  <div class="card-footer">
+    <p>{{status}}</p>
+  </div>
+</div>
